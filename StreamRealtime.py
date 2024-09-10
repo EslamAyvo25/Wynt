@@ -2,6 +2,11 @@ import openai
 import multiprocessing
 import os 
 
+
+'''
+Pushed 
+Tested 
+'''
 api_key = os.getenv('OPENAI_API_KEY')
 if api_key is None:
     print("No API is Set!\n")
